@@ -1,0 +1,11 @@
+.datos__personales {
+    position: relative;
+    text-align:center;
+    top: -150px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.9rem;
+    font-weight: normal; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#2e86de; 
+}

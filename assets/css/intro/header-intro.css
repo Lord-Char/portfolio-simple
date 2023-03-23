@@ -1,0 +1,110 @@
+body, html {
+  height: 100%;
+  transition:0.25s;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #2f3542;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.redes-sociales {
+  font-size: 1.5rem;
+}
+
+.redes-sociales a {
+  color: #fff;
+  margin-left: 10px;
+}
+
+.form-box{
+  width: 300px;
+  padding: 40px;
+  background: #191919;
+  text-align: center;
+}
+
+.form-title{
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.form-box input[type="text"], 
+.form-box input[type="password"], 
+.form-box button[type="submit"] {
+
+  border: 0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  padding: 14px 10px;
+  text-align: center;
+  border: 2px solid #3742fa;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+}
+
+.form-box input[type="text"]:focus,
+.form-box input[type="password"]:focus,
+.form-box  button[type="submit"]:focus {
+  width: 280px;
+  border-color: #fff;
+  transition:0.35s;
+}
+
+.form-box button[type="submit"]{
+  border: 0;
+  background: #5352ed;
+  cursor: pointer;
+  border: 2px solid #3742fa;
+  transition:0.45s;
+}
+
+.form-box button[type="submit"]:hover{
+  background: none;
+}
+
+/*
+align-items: center;
+    background: #95a5a6;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+*/

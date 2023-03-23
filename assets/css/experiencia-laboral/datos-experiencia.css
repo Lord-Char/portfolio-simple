@@ -1,0 +1,4 @@
+.img-fluid, .img-thumbnail {
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,27 @@
+.header, .banner__principal {
+    width: 100%;
+}
+
+.banner__principal {
+    position: relative;
+}
+
+.foto__perfil {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.logo {
+	position: absolute;
+	top: 8%;
+	transform: translateY(-50%);
+	z-index: 1;
+    width: 15%;
+}
+
+
+
+
