@@ -4,14 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/index/header/header.css">
+    <link rel="stylesheet" href="/assets/css/index/header/header.css">
+    <link rel="stylesheet" href="/assets/css/index/redes-sociales/redes__sociales.css">
+    <link rel="stylesheet" href="/assets/css/formacion-academica/educacion.css">
+    <link rel="stylesheet" href="/assets/css/experiencia-laboral/datos-experiencia.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Portfolio MNBS</title>
 </head>
 <body>
 
 <!--Header-->
-<header class="header__index">
-    <div>
+<header>
+    <div  class="header__index">
         <img src="../assets/img/index/banner/pexels-huy-phan-11382772.jpg" alt="" class="banner__principal">
     <div>
         <img src="../assets/img/index/fotos-perfil/modo selfie.jfif" alt="" class="foto__perfil">
@@ -19,20 +23,107 @@
     </div>
 </header>
 
-<!--NavBar / Logo Argentina Programa-->
+<!--NavBar / Logo Argentina Programa / Redes Sociales-->
 <div>
         <a href="https://www.argentina.gob.ar/economia/conocimiento/argentina-programa">
-            <img class="logo" src="/assets/img/Logos proyecto/APLogo.png" alt="logo">
+            <img class="logo" src="/assets/img/logos-proyecto/APLogo.png" alt="logo">
         </a>
 </div>
 <div>
-    <nav> <!--REVISAR EL MENU DE REDES SOCIALES-->
+    <nav class="nav__rs"> 
         <ul class="redes__sociales">
-            <li class="rs__github"><i src="/assets/img/Logos proyecto/github.png" alt=""></li>
-            <li class="rs__linkedin">Linkedin</li>
-            <li class="rs__twitter">Twitter</li>
+            <li class="rs__icon"><a href="" alt=""><img src="/assets/img/logos-proyecto/icon-github.svg" width="55px" alt=""></li>
+            <li class="rs__icon"><a href="" alt=""><img src="/assets/img/logos-proyecto/icon-twitter.svg" width="55px" alt=""></li>
+            <li class="rs__icon"><a href="" alt=""><img src="/assets/img/logos-proyecto/icon-linkedin.svg" width="55px" alt=""></li>
         </ul>
     </nav>
 </div>
+<!--Educacion, Habilidades, Experiencia Laboral, Proyectos-->
+<h2>Educacion</h2>
+<section>
+    <h3 class="titulo__cursos">Cursos Online</h3>
+    <div>
+        <div class="div__ap">
+            <ul>
+                <li class="li__logap">Desarrollador Web Full Stack - Argentina Programa 4.0</li>
+            </ul>
+        </div>
+        <div class="div__one">
+            <ul>
+                <li class="li__logor">Principiante en programación - Programa One</li>
+            </ul>
+        </div>
+    </div>
+</section>
+<!--
+<h2>Hard & Soft Skills</h2>
+<section>
+    <p>Trabajo en equipo, Colaboración, Creatividad, Razonamiento analítico, Empatía, Capacidad de aprendizaje</p>
+        
+    <p>Conocimientos en HTML, CSS, JS, Angular, C, Python</p>
+</section>
+-->
+<h2>Experiencia Laboral</h2>
+<section>
+    <h3 class="titulo__senasa">SENASA</h3>
+        <div> 
+            <div class="ex__senasa">
+                <ul class="li__senasa">
+                    <li class=""> Administrativo en Oficina Local Concordia - DNSA</li>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </ul>
+            </div>
+    <h3 class="titulo__municipalidad">Municipalidad de Concordia</h3>
+            <div class="ex__municipalidad">
+                <ul class="li__municipalidad">
+                    <li class="">Pasante en Secretaría de Servicios Públicos</li>
+                <!--     <ul class="">
+                            <li class="">Pasantía</li>
+                            <li class="">2008 - 2010</li>
+                            <li class="">Actividades:</li>
+                        
+                            <ul class="">
+                            <li class="">Control de gestión para tramitación de solicitudes de compra de insumos, repuestos de máquinas viales y
+                                vehículos.</li>
+                            <li class="">Verificación y control de cubiertas adquiridas por licitación pública, destinados al parque automotor municipal.</li>
+                            <li class="">Informes sobre gastos en compra de repuestos; presentados en forma mensual al Consejo Deliberante, bajo
+                                decreto municipal.
+                                </li>
+                            <li class="">Revisión de expedientes de compra de repuestos e insumos.</li>
+                            </ul>
+
+                            -->
+                </ul>
+            </div>    
+        </div>
+</section>
+<!-- 
+<h2>Proyectos</h2>
+<section>
+    <div class="proyectos">
+        <ul>
+            <li class="proyectos__github">Portfolio Simple, de Arg. Programa 4.0</li>
+            <li class="proyectos__github">Comida Sana, con mucho CSS</li>
+            <li class="proyectos__github">Apeperia Sitio Web Responsive</li>
+            <li class="proyectos__github">Proyecto Sandebistan</li>
+            <li class="proyectos__github">Proyecto Eva</li>
+            <li class="proyectos__github">Alura Store</li>
+            <li class="proyectos__github">Lenguaje C</li>
+            <li class="proyectos__github">Practica de HTML5, CSS3 y JS</li>
+            <li class="proyectos__github">Encriptador Alura</li>
+        </ul>
+    </div>
+</section>
+-->
 </body>
 </html>

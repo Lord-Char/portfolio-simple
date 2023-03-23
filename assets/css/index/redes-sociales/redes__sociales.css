@@ -1,0 +1,13 @@
+.redes__sociales {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.nav__rs{
+    top:1%;
+    position: absolute;
+    justify-content: space-between;
+    right: 0;   
+}

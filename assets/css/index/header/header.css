@@ -1,13 +1,24 @@
+* {
+    background-color: ;
+    text-decoration: none;
+    pointer-events: none;
+    cursor: default;
+    color:#000
+}
+
 .header, .banner__principal {
     width: 100%;
+    
 }
 
 .banner__principal {
     position: relative;
+    
 }
 
 .foto__perfil {
     position: absolute;
+    width: 30%;
     top: 140%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -20,7 +31,20 @@
 	transform: translateY(-50%);
 	z-index: 1;
     width: 15%;
+    opacity: 1;
 }
+
+.nav__rs,.redes__sociales, .rs__icon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 0.15px;
+    margin-right: 5px;
+    opacity: 1;
+    position: relative;
+    
+}
+
 
 
 

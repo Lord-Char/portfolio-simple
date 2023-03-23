@@ -1,4 +1,57 @@
-.img-fluid, .img-thumbnail {
-    width: 100%;
-    height: auto;
+* {
+    text-decoration: none;
 }
+
+ul  {
+    list-style: none;
+  }
+  .ex__senasa {
+    width: 400px;
+    background-color: #cdcdcd;
+}
+
+.li__senasa{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+  .li__senasa::before{
+    content: '';
+    display: inline-block;
+    width: 95px;
+    height: 75px;
+    background-image: url(/assets/img/logos-proyecto/logo-senasa.jpeg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    vertical-align: top;
+  }
+
+  .ex__municipalidad {
+    width: 400px;
+    background-color: #cdcdcd;
+  }
+.li__municipalidad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+ .li__municipalidad::before {
+    content: '';
+    display: inline-block;
+    width: 95px;
+    height: 75px;
+    background-image: url(/assets/img/logos-proyecto/logo-muni.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+}
+  
+    

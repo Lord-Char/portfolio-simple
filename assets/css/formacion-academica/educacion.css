@@ -1,0 +1,66 @@
+ul  {
+  list-style: none;
+}
+
+.div__ap{
+    
+
+}
+
+.li__logap::before{
+  content: '';
+  display: inline-block;
+  width: 95px;
+  height: 75px;
+  background-image: url(/assets/img/logos-proyecto/logo-apcolor.jpg);
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;  
+}
+
+.li__logap {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.li__logap span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.li__logor::before {
+  content: '';
+  display: inline-block;
+  width: 95px;
+  height: 75px;
+  background-image: url(/assets/img/logos-proyecto/one-oracle.png);
+  background-position: center;
+  background-size: cover;
+  margin-right: 5px;  
+}
+
+.li__logor {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  
+}
+
+.li__logor span {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+  
