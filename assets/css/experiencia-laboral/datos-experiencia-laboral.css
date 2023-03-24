@@ -1,13 +1,14 @@
 * {
-    text-decoration: none;
+    text-decoration: ;
 }
 
 ul  {
     list-style: none;
   }
   .ex__senasa {
-    width: 400px;
+    width: 500px;
     background-color: #cdcdcd;
+    justify-content: center;
 }
 
 .li__senasa{
@@ -16,6 +17,7 @@ ul  {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
 }
   .li__senasa::before{
     content: '';
@@ -31,8 +33,9 @@ ul  {
   }
 
   .ex__municipalidad {
-    width: 400px;
+    width: 500px;
     background-color: #cdcdcd;
+    justify-content: center;
   }
 .li__municipalidad {
     display: flex;
@@ -40,6 +43,7 @@ ul  {
     margin-bottom: 10px;
     padding: 10px;
     border-radius: 10px;
+    text-align: center;
     
 }
  .li__municipalidad::before {

@@ -1,10 +1,20 @@
 ul  {
   list-style: none;
+  
 }
 
 .div__ap{
-    
+  width: 500px;
+  background-color: #cdcdcd;
+  justify-content: center;
+  text-decoration: none;
+}
 
+.div__one{
+  width: 500px;
+  background-color: #cdcdcd;
+  justify-content: center;
+  text-decoration: none;
 }
 
 .li__logap::before{
@@ -17,7 +27,7 @@ ul  {
   background-size: cover;
   margin-right: 5px;  
 }
-
+/*logap = logo de Argentina Programa*/
 .li__logap {
   display: flex;
   align-items: center;
@@ -43,16 +53,15 @@ ul  {
   background-image: url(/assets/img/logos-proyecto/one-oracle.png);
   background-position: center;
   background-size: cover;
-  margin-right: 5px;  
+  margin-right: 5px;
 }
-
+/*logor = logo de oracle*/
 .li__logor {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
   padding: 10px;
   border-radius: 10px;
-  
 }
 
 .li__logor span {
