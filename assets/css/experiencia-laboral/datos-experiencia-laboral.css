@@ -28,7 +28,7 @@ ul  {
     background-position: left;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 5px;
+    margin-right: 25px;
     vertical-align: top;
   }
 
@@ -55,7 +55,7 @@ ul  {
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-right: 5px;
+    margin-right: 25px;
 }
 /*revisar el boton para ver si puedo colocar a la derecha*/
 .btn,.btn-primary {
