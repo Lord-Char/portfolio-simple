@@ -1,8 +1,9 @@
 * {
     text-decoration: none;
-    pointer-events:fill ;
+    pointer-events:fill ; /*revisar este evento*/
     cursor: default;
     color:#000
+
 }
 
 .header, .banner__principal {

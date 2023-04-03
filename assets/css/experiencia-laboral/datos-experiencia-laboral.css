@@ -1,5 +1,5 @@
 * {
-    text-decoration: ;
+    
 }
 
 ul  {
@@ -56,6 +56,10 @@ ul  {
     background-size: contain;
     background-repeat: no-repeat;
     margin-right: 5px;
+}
+/*revisar el boton para ver si puedo colocar a la derecha*/
+.btn,.btn-primary {
+
 }
   
     
