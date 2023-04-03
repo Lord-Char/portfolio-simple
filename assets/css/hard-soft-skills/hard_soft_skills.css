@@ -1,13 +1,14 @@
-.proyectos{
+.habilidades{
     background-color:#cdcdcd;
-    padding: 10px;
+    padding: 20px;
     background-position: center;
     background-size: contain;
-    margin-right: 25px;
-}
-
-/*
-.proyectos__github{    
+    margin-right: 20px;
+    
     
 }
-*/
+
+.progress{
+    margin: 20px;
+    
+}

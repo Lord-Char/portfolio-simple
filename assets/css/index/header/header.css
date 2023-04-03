@@ -3,7 +3,6 @@
     pointer-events:fill ; /*revisar este evento*/
     cursor: default;
     color:#000
-
 }
 
 .header, .banner__principal {
@@ -41,7 +40,7 @@
     padding-top: 0.15px;
     margin-right: 5px;
     opacity: 1;
-    position: relative; 
+    position: relative;
 }
 
 
