@@ -1,0 +1,11 @@
+.nav-item{
+    margin: 20px;
+}
+
+.nav-link active rounded-5{
+    background-color:#cdcdcd;
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+}
