@@ -2,7 +2,7 @@
     margin: 20px;
 }
 
-.nav-link active rounded-5{
+.form-label,.form-control{
     background-color:#cdcdcd;
     padding: 20px;
     background-position: center;
