@@ -1,0 +1,19 @@
+.form-container {
+  display: none;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.form-container label {
+  font-weight: bold;
+}
+
+.form-container textarea {
+  resize: none;
+}
+
+.popover {
+  max-width: 400px;
+}

@@ -1,4 +1,4 @@
-.nav-item{
+/*.nav-item{
     margin: 20px;
 }
 
@@ -9,4 +9,23 @@
     background-size: contain;
     margin-right: 20px;
     border-left: 30px;
+}
+*/
+.btn-primary,#btn-contacto:hover {
+    background-color: #eeb109;
+    border-color: #e76f0c;
+  }
+
+.btn-default{
+    background-color: #dcdc;
+    border-color: #dcdc;
+}
+
+#derechos, .copyright {
+    text-align: center;
+    color: blueviolet;
+	font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+    
 }

@@ -43,9 +43,9 @@
     </nav>
 </div>
 <!--Educacion, Habilidades, Experiencia Laboral, Proyectos-->
-<h2>Educacion</h2>
+<h2>Formación Académica</h2>
 <section>
-    <h3 class="titulo__cursos">Cursos Online</h3>
+    <h3 class="titulo__cursos">Cursos</h3>
     <div>
         <div class="div__ap">
             <ul>
@@ -206,22 +206,47 @@
             </div>
 </section>
 <section>
-  <h2>Footer</h2>
+  <h2>Contacto</h2>
   <div>
     <footer>
-      este es el footer de prueba
-      <button type="button" class="btn btn-secondary"
-        data-bs-toggle="popover" data-bs-placement="right"
-        data-bs-custom-class="custom-popover"
-        data-bs-title="Custom popover"
-        data-bs-content="This popover is themed via CSS variables.">
-        Custom Popover
-      </button>
+      <button type="button" class="btn btn-primary" id="btn-contacto">Hablemos</button>
 
-<script>
-  const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
-  const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
-</script>
+      <form id="form-contacto" style="display:none">
+        <div class="form-group">
+          <label for="nombre">Nombre:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" class="form-control" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje:</label>
+          <textarea class="form-control" id="mensaje" name="mensaje" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-default">Enviar</button>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script>
+          $(document).ready(function() {
+            $('#btn-contacto').click(function() {
+              $('#form-contacto').toggle();
+            });
+      
+            $('[data-toggle="popover"]').popover({
+              html: true,
+              content: function() {
+                return $('#form-contacto').html();
+              },
+              title: function() {
+                return 'Contacto';
+              },
+              placement: 'top'
+            });
+          });
+        </script>
+      </form>
+      <p id="derechos" class="copyright">&copy Copyright - eMeNBieS Diseño Web - 2023</p>
     </footer>
   </div>
 </section>
@@ -229,17 +254,14 @@
 </html>
 
 <!--Para el formulario de contacto, no olvidar!!
-<li class="nav-item" role="presentation">
-    <button class="nav-link active rounded-5" id="home-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="true">Home</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link rounded-5" id="profile-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Profile</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link rounded-5" id="contact-tab2" data-bs-toggle="tab" type="button" role="tab" aria-selected="false">Contact</button>
-  </li>
-</ul>
-
+<div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Email address</label>
+  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+</div>
+<div class="mb-3">
+  <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+</div>
 **Dropdown:
 <div class="dropdown">
 <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
