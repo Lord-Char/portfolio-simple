@@ -1,26 +1,24 @@
-/*.nav-item{
-    margin: 20px;
-}
-
-.form-label,.form-control{
+.footer{
     background-color:#cdcdcd;
     padding: 20px;
     background-position: center;
     background-size: contain;
     margin-right: 20px;
-    border-left: 30px;
 }
-*/
+
+/*boton contacto*/
 .btn-primary,#btn-contacto:hover {
     background-color: #eeb109;
     border-color: #e76f0c;
   }
 
+  /*boton enviar*/
 .btn-default{
-    background-color: #dcdc;
-    border-color: #dcdc;
+    background-color:#a55eea ;
+    border-color: #eb3b5a;
 }
 
+/*copyright*/
 #derechos, .copyright {
     text-align: center;
     color: blueviolet;

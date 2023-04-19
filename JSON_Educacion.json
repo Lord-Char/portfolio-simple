@@ -1,0 +1,31 @@
+{
+	"education": [
+		{
+			"escuela": "UTN",
+			"titulo": "Ingeniería",
+			"imagen": "https://www.ort.edu.ar/img/LogoOrtArgWeb2017.jpg",
+			"carrera": "Sistemas Computacionales",
+			"puntaje": 100,
+			"inicio": "2019",
+			"fin": "2023"
+		},
+		{
+			"escuela": "Centro de Enseñanza Técnica Industrial",
+			"titulo": "Tecnologo",
+			"imagen": "https://media-exp1.licdn.com/dms/image/C560BAQEUHhax7RCj0A/company-logo_100_100/0/1584819716706?e=1637798400&v=beta&t=4UkXYz39PCtn4PqDYbwXZNWPSC3MgoHckfDfqQLBlHc",
+			"career": "Desarrollo de Software",
+			"puntaje": 82,
+			"inicio": "2014",
+			"fin": "2018"
+		},
+		{
+			"escuela": "Escuela Secundaria Técnica 14",
+			"titulo": "Técnico",
+			"imagen": "https://media-exp1.licdn.com/dms/image/C4E0BAQFhOoraRhsOSQ/company-logo_100_100/0/1590421269154?e=1637798400&v=beta&t=gyinTA0GPG1xIBDPj01L33mQHcdOdyMOdpoRHY640Pc",
+			"career": "Electronica, comunicacion y sistemas de control",
+			"puntaje": 70,
+			"inicio": "2012",
+			"fin": "2014"
+		}
+	]
+}
