@@ -1,11 +1,10 @@
 body, html {
     height: 100%;
     transition:0.25s;
+    height: 700px;
   }
   
   body {
-    margin: 0;
-    padding: 0;
     background: #2f3542;
     display: flex;
     flex-direction: row;
@@ -14,6 +13,7 @@ body, html {
     align-items: center;
     overflow: hidden;
   }
+
   header {
     display: flex;
     justify-content: space-between;
