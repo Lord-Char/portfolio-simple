@@ -26,3 +26,7 @@ Los acordeones de cada seccion, la formacion academica, experiencia laboral, hab
 Como dije mas arriba, algo tosco pero cuasi funcional. Y digo cuasi, por esos "pequeños" detalles de los hipervinculos. 
 
 Nuevamente, es algo a corregir.
+
+Al 24 de abril y siendo las 19.44 hs, se empieza a modificar el proyecto en version Angular. Se agrega un componente más a modo de prueba, el cual contiene el index del proyecto. Se intenta acceder desde el menu intro, sin resultados. Finalmente, se logra acomodar el componente del intro, para que intente ocupar toda la pantalla, sin que salga recortado.
+
+No he trabajado en la parte del back. Por ahora. 
