@@ -1,0 +1,212 @@
+* {
+    text-decoration: none;
+    pointer-events:fill ; /*revisar este evento*/
+    cursor: default;
+    color:#000
+}
+
+.header, .banner__principal {
+    width: 100%;
+    
+}
+
+.banner__principal {
+    position: relative;
+    
+}
+
+.foto__perfil {
+    position: absolute;
+    width: 25%;
+    top: 140%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+.logo {
+	position: absolute;
+	top: 8%;
+	transform: translateY(-50%);
+	z-index: 1;
+    width: 15%;
+    opacity: 1;
+}
+
+.nav__rs,.redes__sociales, .rs__icon {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding-top: 0.15px;
+    margin-right: 5px;
+    opacity: 1;
+    position: relative;
+}
+.redes__sociales {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.nav__rs{
+    top:1%;
+    position: absolute;
+    justify-content: space-between;
+    right: 0;   
+}
+.menu__item, .menu__link {
+    margin-left: 15px;
+}
+
+ul  {
+    list-style: none;
+  }
+  .ex__senasa {
+    width: 500px;
+    background-color: #cdcdcd;
+    justify-content: center;
+}
+
+.li__senasa{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+  .li__senasa::before{
+    content: '';
+    display: inline-block;
+    width: 95px;
+    height: 75px;
+    background-image: url(/assets/img/logos-proyecto/logo-senasa.jpeg);
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+    vertical-align: top;
+  }
+
+  .ex__municipalidad {
+    width: 500px;
+    background-color: #cdcdcd;
+    justify-content: center;
+  }
+.li__municipalidad {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+ .li__municipalidad::before {
+    content: '';
+    display: inline-block;
+    width: 95px;
+    height: 75px;
+    background-image: url(/assets/img/logos-proyecto/logo-muni.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 25px;
+}
+
+
+/*X-Small devices (portrait phones, less than 576px)*/
+/* No media query for `xs` since this is the default in Bootstrap*/
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 575.98px) {  
+/*esta es de prueba para ver el responsive minimo, se puede borrar*/    
+.img-fluid {
+    width: 100%;
+    height: auto;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 767.98px) {  
+
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 991.98px) {  
+
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1199.98px) {  
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1399.98px) {  
+
+}
+.proyectos{
+    background-color:#cdcdcd;
+    padding: 10px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 25px;
+}
+
+/*
+.proyectos__github{    
+    
+}
+*/
+
+.habilidades{
+    background-color:#cdcdcd;
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+    
+    
+}
+
+.progress{
+    margin: 20px;
+    
+}
+.footer{
+    background-color:#cdcdcd;
+    padding: 20px;
+    background-position: center;
+    background-size: contain;
+    margin-right: 20px;
+}
+
+/*boton contacto*/
+.btn-primary,#btn-contacto:hover {
+    background-color: #eeb109;
+    border-color: #e76f0c;
+  }
+
+  /*boton enviar*/
+.btn-default{
+    background-color:#a55eea ;
+    border-color: #eb3b5a;
+}
+
+/*copyright*/
+#derechos, .copyright {
+    text-align: center;
+    color: blueviolet;
+	font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+	margin: 20px;
+    
+}
+    
+
+
+
+
+
