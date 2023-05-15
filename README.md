@@ -30,3 +30,22 @@ Nuevamente, es algo a corregir.
 Al 24 de abril y siendo las 19.44 hs, se empieza a modificar el proyecto en version Angular. Se agrega un componente más a modo de prueba, el cual contiene el index del proyecto. Se intenta acceder desde el menu intro, sin resultados. Finalmente, se logra acomodar el componente del intro, para que intente ocupar toda la pantalla, sin que salga recortado.
 
 No he trabajado en la parte del back. Por ahora. 
+
+Un pequeño paréntesis, antes de continuar con el readme del proyecto:
+Inicialmente, al empezar el curso estaba desocupado. Hoy, 15 de mayo de 2023; por esas vueltas de la vida, alineación cósmica de planetas y otra tanda de cosas esotéricas, me encuentro trabajando. Gracias a Dios, puedo estar tranquilo momentáneamente a nivel económico. Realmente lo necesitaba, no sabía de donde "arañar" para pagar las cuentas. 
+
+Anteriormente, mencioné "por alineación cósmica"; porque me volvieron a contratar desde SENASA para cubrir mi otrora puesto de trabajo como técnico administrativo, en la Oficina Local de Concordia. 
+
+La urgencia surge por la rápida expansión que tuvo la influeza aviar en nuestro país, por lo que SENASA (que fué manoseado anteriormente, y prácticamente desmantelado en lo que a mano de obra se refiere) nuevamente intenta cubrir esas vacantes con agentes que ya estuvieron cumpliendo funciones. Incluso algunos nuevos integrantes tambien pudieron ingresar. Mi lugar de trabajo lo desempeñé con orgullo por 7 años y 3 meses. 
+
+Antes que el gobierno anterior finalice su gestión, tuve la mala fortuna que me cesaran de mis funciones. Y no fuí el único. Muchos de mis compañeros de trabajo de Entre Ríos corrieron la misma suerte. Algunos con 15 o más años dentro del Organismo. No niego que en los primeros meses es algo que me tocó bastante profundo. Cuando finalmente toqué fondo, pude convertir esa mala racha en una oportunidad. 
+
+Es cuando empecé mi camino por este hermoso mundo como developer en pañales. Empecé una tecnicatura de programación en la UTN Concordia. Estaba muy contento, porque en el primer año de la carrera logré promocionar 11 de las 14 materias del primer año. Pero luego vino la pandemia. No voy a entrar en mucho detalle, pero ahí empezó toda la complicación económica. No pude continuar la facultad, fue una de las grandes bajas de mis objetivos personales. 
+
+Pero, vueltas y todo, en el año 22 tuve nuevamente la oportunidad de retomar nuestro hermoso mundo de la programación, fuí admitido en la primer parte del curso Yo Programo y hoy estoy a metros (u horas) de finalizar la segunda parte. 
+
+Estoy muy agradecido por la oportunidad, pero no pude terminar el proyecto como me hubiera gustado. Por lo que, pido disculpas, por no cumplir el desafío en su totalidad. 
+
+Como verán, la parte del back me falta bastante para finalizar su desarrollo. Pude plantear, más o menos, la parte lógica intentado seguir la masterclass de Luisina. Luego en la masterclass de Ivana, comencé a plantear la conexión por routing entre el componente de inicio de sesión y el componente index del proyecto. 
+
+En el transcurso de los próximos días intentaré finalizarlo como corresponde. Agradeceré que puedan darle una mirada, así puedo saber en que puntos estoy fallando. Y como encararlos para poder solucionarlos.
