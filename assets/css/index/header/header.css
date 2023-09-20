@@ -33,6 +33,15 @@
     opacity: 1;
 }
 
+.logo1 {
+    position: absolute;
+    top: 5%;
+    transform: translatex(290%);
+    z-index: 1;
+    width: 15%;
+    opacity: 1;
+}
+
 .nav__rs,.redes__sociales, .rs__icon {
     display: flex;
     justify-content: space-around;

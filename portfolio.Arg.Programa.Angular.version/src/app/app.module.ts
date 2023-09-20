@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { PortfolioComponent } from './componentes/portfolio/portfolio.component';
 import { IndexPortfolioComponent } from './componentes/index-portfolio/index-portfolio.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -16,9 +17,11 @@ import { IndexPortfolioComponent } from './componentes/index-portfolio/index-por
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
+    
   ],
-  providers: [],
+  providers: [PortfolioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
